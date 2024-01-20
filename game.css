@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body
+{
+    background-color: #99E1D9;
+}
+
+/*keeping the font size equal to line height makes the text aligned to centre from vertical perspective*/
+h1
+{
+    background-color: #2D232E;
+    color: #99E1D9;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.choice
+{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*this is to reflect any changes we want when we hover over any element of class choice*/
+.choice:hover
+{
+    background-color: #2D232E;
+    cursor: pointer;
+}
+
+img
+{
+    height: 18vh;
+    width: 18vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scoreboard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 14rem;
+}
+
+.score
+{
+    background-color: #2D232E;
+    color: #99E1D9;
+    height: 7rem;
+    width: 8rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+#userscore,#compscore
+{
+    font-size: 4rem;
+}
+
+.container
+{
+    margin-top: 4rem;
+}
+
+#msg
+{
+    background-color: #2D232E;
+    color: #99E1D9;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#reset
+{
+    background-color: #2D232E;
+    color: #99E1D9;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#reset:hover
+{
+    cursor: pointer;
+}
